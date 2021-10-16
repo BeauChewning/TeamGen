@@ -73,7 +73,7 @@ function init(){
                             const engineer = new engineer(answer.engineerName, answer.engineerId, answer.engineerEmail, answer.engineerGithub)
                             team.push(engineer)
                            console.log(team)
-                           mainMenu();
+                           mainMenu(engineer);
                         })
                         
 
@@ -106,7 +106,7 @@ function init(){
                             const intern = new intern(answer.internName, answer. internId, answer.internEmail, answer.iternGithub)
                             team.push(intern)
                             console.log(team)
-                            mainMenu();
+                            mainMenu(intern);
                         })
                     
                     break;
