@@ -1,0 +1,14 @@
+{
+  "name": "oopproject",
+  "version": "1.0.0",
+  "description": "Team Profile Generator Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run tests"
+  },
+  "author": "Beau Chewning",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
