@@ -4,11 +4,12 @@
   "description": "Team Profile Generator Application",
   "main": "index.js",
   "scripts": {
-    "test": "npm run tests"
+    "test": "jest"
   },
   "author": "Beau Chewning",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "inquirer": "^8.2.0",
+    "jest": "^27.3.1"
   }
 }

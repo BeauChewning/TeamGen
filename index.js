@@ -116,7 +116,7 @@ function init() {
                             message: "What school does the intern attend"
                         },
                     ]).then(answer => {
-                        intern = new Intern(answer.internName, answer.internId, answer.internEmail, answer.iternSchool)
+                        intern = new Intern(answer.internName, answer.internId, answer.internEmail, answer.internSchool)
                         team.push(intern)
                         console.log(team)
                         mainMenu();
